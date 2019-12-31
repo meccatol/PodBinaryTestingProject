@@ -2,7 +2,6 @@
 platform :ios, '11.0'
 plugin 'cocoapods-binary'
 use_frameworks!
-all_binary!
 
 target 'PodBinaryTestingProject' do
   pod 'Giphy', '1.1.8', :binary => false
