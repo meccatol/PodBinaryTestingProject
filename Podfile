@@ -1,8 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
+plugin 'cocoapods-binary'
 use_frameworks!
+all_binary!
 
 target 'PodBinaryTestingProject' do
-  pod 'AFNetworking', '3.1'
-  pod 'GoogleSignIn', '4.1.2'
+  pod 'Giphy', '1.1.8', :binary => false
 end
